@@ -2,5 +2,11 @@ language: c
 compiler:
 - clang
 sudo: false
+addons:
+  apt:
+    sources:
+      - ppa:george-edison55/precise-backports
+    packages:
+      - cmake
 script:
 - "cmake --version"
