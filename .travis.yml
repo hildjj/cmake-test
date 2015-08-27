@@ -1,0 +1,6 @@
+language: c
+compiler:
+- clang
+sudo: false
+script:
+- "cmake -v"
