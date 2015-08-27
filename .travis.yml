@@ -3,4 +3,4 @@ compiler:
 - clang
 sudo: false
 script:
-- "cmake -v"
+- "cmake --version"
